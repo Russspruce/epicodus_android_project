@@ -23,6 +23,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         ButterKnife.bind(this);
 
         mLoginButton.setOnClickListener(this);
+
     }
 
     @Override
