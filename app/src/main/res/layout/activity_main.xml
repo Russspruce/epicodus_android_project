@@ -30,11 +30,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:inputType="textPersonName"
-        android:text="Name"
         android:ems="10"
         android:id="@+id/usernameText"
         android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:hint="Name" />
 
     <EditText
         android:layout_width="wrap_content"
@@ -42,8 +42,8 @@
         android:inputType="textPassword"
         android:ems="10"
         android:id="@+id/editText2"
-        android:text="Password"
         android:layout_below="@+id/usernameText"
         android:layout_alignLeft="@+id/usernameText"
-        android:layout_alignStart="@+id/usernameText" />
+        android:layout_alignStart="@+id/usernameText"
+        android:hint="Password" />
 </RelativeLayout>
