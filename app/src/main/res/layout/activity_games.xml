@@ -17,4 +17,22 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:textSize="35dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Search Games"
+        android:id="@+id/gamesListButton"
+        android:layout_marginTop="164dp"
+        android:layout_below="@+id/gamesTextView"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gamename"
+        android:layout_below="@+id/gamesTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="58dp"
+        android:text="Testing" />
 </RelativeLayout>
