@@ -12,14 +12,9 @@ import butterknife.ButterKnife;
 
 //public ArrayList<Game> mGames = new ArrayList<>();
 
-public class GamesActivity extends AppCompatActivity {
-
-    @Override
-    protected void onCreate(Bundle savedInstanceState) implements View.OnClickListener {
-
-        @Bind(R.id.gamesListButton) Button mGamesListButton;
-        @Bind(R.id.gamename) EditText mGamename;
-
+public class GamesActivity extends AppCompatActivity implements View.OnClickListener {
+    @Bind(R.id.gamesListButton) Button mGamesListButton;
+    @Bind(R.id.gamename) EditText mGamename;
 
 
         @Override

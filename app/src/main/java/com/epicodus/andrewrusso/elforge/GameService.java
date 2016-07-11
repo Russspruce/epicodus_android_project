@@ -3,7 +3,7 @@ package com.epicodus.andrewrusso.elforge;
 import android.util.Log;
 
 import com.epicodus.andrewrusso.elforge.Constants;
-import com.epicodus.andrewrusso.elforge.models.Game;
+import com.epicodus.andrewrusso.elforge.Game;
 
 import org.json.JSONArray;
 import org.json.JSONException;
