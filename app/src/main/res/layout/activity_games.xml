@@ -34,5 +34,5 @@
         android:layout_below="@+id/gamesTextView"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="58dp"
-        android:text="Testing" />
+        android:hint="Name" />
 </RelativeLayout>

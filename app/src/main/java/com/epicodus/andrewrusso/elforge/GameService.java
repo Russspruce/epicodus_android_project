@@ -23,14 +23,13 @@ import okhttp3.Response;
  * Created by andrewrusso on 7/8/16.
  */
 public class GameService {
-    public static void findGames(String searchType, String gameListTextView, Callback callback) {
+    public static void findGames(String gameListTextView, Callback callback) {
 
         OkHttpClient client = new OkHttpClient.Builder().build();
 
-        HttpUrl.Builder urlBuilder = HttpUrl.parse(Constants.GAME_DB_API_KEY).newBuilder();
-        urlBuilder.addPathSegment(searchType);
-        urlBuilder.addQueryParameter("query", gameListTextView);
-        urlBuilder.addQueryParameter("api_key", Constants.GAME_DB_API_KEY);
+//        HttpUrl.Builder urlBuilder = HttpUrl.parse(Constants.GAME_DB_API_KEY).newBuilder();
+//        urlBuilder.addQueryParameter("query", gameListTextView);
+//        urlBuilder.addQueryParameter("api_key", Constants.GAME_DB_API_KEY);
         String url = urlBuilder.build().toString();
         Log.d("url", url);
 
